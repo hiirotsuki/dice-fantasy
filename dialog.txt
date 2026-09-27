@@ -1,0 +1,28 @@
+# Dice Fantasy message box translations (used by the dinput.dll wrapper).
+# One entry per line: <original text><TAB><translation>.
+# Escapes: \n newline, \t tab, \\ backslash. Lines starting with # are ignored.
+# Entries are applied as substring replacements, longest original first.
+# File encoding: UTF-8.
+
+# Dialog captions
+報告	Notice
+確認	Confirm
+
+# Startup errors
+既にDiceFantasyは起動しています。\n	DiceFantasy is already running.\n
+メインウィンドウが設定されていません。\nこのまま終了します。	The main window has not been set up.\nThe game will now exit.
+メインウィンドウの作成に失敗しました。\nこのまま終了します。	Failed to create the main window.\nThe game will now exit.
+描画マネージャの初期化に失敗しました。\nこのまま終了します。	Failed to initialize the graphics manager.\nThe game will now exit.
+音声マネージャの初期化に失敗しました。\nこのまま終了します。	Failed to initialize the sound manager.\nThe game will now exit.
+入力マネージャの初期化に失敗しました。\nこのまま終了します。	Failed to initialize the input manager.\nThe game will now exit.
+このアプリケーションは High Color (16ビット) 専用です。\n\n256色モードでは実行できません。このまま終了します。	This application requires High Color (16-bit) mode.\n\nIt cannot run in 256-color mode. The game will now exit.
+このアプリケーションは High Color (16ビット) モード専用です。\n\nTrue Color (24ビット・32ビット) モードでは実行できません。このまま終了します。	This application requires High Color (16-bit) mode.\n\nIt cannot run in True Color (24-bit/32-bit) mode. The game will now exit.
+
+# While running
+DiceFantasyを終了しますか？	Quit DiceFantasy?
+実行できない画面モードに切り替わりました。\nこのまま終了します。	The display switched to a mode the game cannot run in.\nThe game will now exit.
+アプリケーションの実行中に問題が発生しました。\n続行できないため終了します。	A problem occurred while running the application.\nThe game cannot continue and will now exit.
+
+# Fragments of the CreateSurface error (the game inserts the object name and size)
+\n●GrafxObjectの名前  	\n● GrafxObject name:  
+\n●作成しようとした画像サイズ	\n● Requested image size
